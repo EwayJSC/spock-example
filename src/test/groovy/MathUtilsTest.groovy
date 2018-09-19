@@ -4,7 +4,7 @@ import spock.lang.Unroll
 class MathUtilsTest extends Specification {
 
     @Unroll
-    def "Maximum of the numbers MathUtils.getMaxNumber()"() {
+    def "Maximum of the numbers"() {
         expect:
         MathUtils.getMaxNumber(numbers) == max
 
